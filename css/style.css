@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Outline');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+    
+    html {
+        box-sizing: border-box;
+    }
+    
+    *,
+    *::before,
+    *::after {
+        box-sizing: inherit;
+        margin: 0;
+    }
+    
+    body {
+        background-image: url(pic2.jpeg);
+        color: white;
+        font-family: 'Dancing Script', cursive;
+        font-size: 20px;
+    }
+    
+    header {
+        text-align: center;
+        color: rgba(69,86,14,1);
+        font-family: 'Bungee Outline', cursive;
+    }
+
+.ram{
+    width: 45%;
+    height: 165px;
+    position: relative;
+    left: 25%;
+    margin-top: 30px;
+}
+
+.text1{
+    text-align: center;
+}
+
+input {
+    margin-left: 170px;
+    color: white;
+    background-color: black; 
+    border: 3px solid rgba(69,86,14,1);
+    -webkit-border-radius: 18px;
+    border-radius: 18px;
+}
+
+.btn{
+    box-sizing: content-box;
+    width: 50px;
+    padding: 7px 20px;
+    overflow: hidden;
+    color: rgba(255,255,255,1);
+    text-align: center;
+    text-overflow: ellipsis;
+    background: linear-gradient(32.00538320808346deg, rgba(57,57,61,1) 0, rgba(20,22,15,1) 100%);
+    background-position: 50% 50%;
+    background-origin: padding-box;
+    background-clip: border-box;
+    background-size: auto auto;
+    border: 3px solid rgba(69,86,14,1);
+    border-radius: 18px;
+    font: normal 16px/1 "Times New Roman", Times, serif;
+}
+
+.btn:hover{
+    transform: translateY(-10px) scale(1.2);
+    transition: all .5s;
+}
